@@ -111,51 +111,51 @@
              
          ]
      },
-     [{
+     {
          "name": "Around the World",
          "content": [
              {
-                 "type": 4
+                 "type": 4,
                  "emoji": "🌍",
                  "recurring_value": 40074274.9,
                  "format_string": "You biked around the world!"
              },
              {
-                 "type": 4
+                 "type": 4,
                  "emoji": "🌘",
                  "recurring_value": 10921008,
                  "format_string": "You biked around the moon!"
              },
              {
-                 "type": 4
+                 "type": 4,
                  "emoji": "🇺🇸",
                  "recurring_value": 4506163,
                  "format_string": "You biked across the US!"
              },
              {
-                 "type": 4
+                 "type": 4,
                  "emoji": "🏔",
                  "recurring_value": 2285268,
                  "format_string": "You biked across Alaska!"
              },
              {
-                 "type": 4
+                 "type": 4,
                  "emoji": "🌲",
                  "recurring_value": 643738,
                  "format_string": "You biked across Oregon!"
              },
              {
-                 "type": 4
+                 "type": 4,
                  "emoji": "🌅",
                  "recurring_value": 402336,
                  "format_string": "You biked across California!"
              },
              {
-                 "type": 4
+                 "type": 4,
                  "emoji": "🐄",
                  "recurring_value": 66949,
                  "format_string": "You biked across Vermont!"
-             }
+             }]
         }
      ]
 }
