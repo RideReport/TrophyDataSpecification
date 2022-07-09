@@ -1,5 +1,5 @@
 {
- "version_number": 1,
+ "version_number": 2,
  "requiredIOSClientVersion": 245,
  "content":
      [{
@@ -63,7 +63,7 @@
                  "min_value": 100,
                  "format_string": "%i day ride streak!",
                  "encouragement_title": "100 Day Streak",
-                 "encouragement_instructions": ""
+                 "encouragement_instructions": "We're pretty sure no one has ever actually done this."
              },
              {
                  "type": 3,
@@ -72,7 +72,7 @@
                  "max_value": 99,
                  "format_string": "%i day ride streak!",
                  "encouragement_title": "50 Day Streak",
-                 "encouragement_instructions": ""
+                 "encouragement_instructions": "Seriously do you ever stop riding?"
              },
              {
                  "type": 3,
@@ -81,7 +81,7 @@
                  "max_value": 49,
                  "format_string": "%i day ride streak!",
                  "encouragement_title": "25 Day Streak",
-                 "encouragement_instructions": ""
+                 "encouragement_instructions": "You can't stop now."
              },
              {
                  "type": 3,
@@ -90,7 +90,7 @@
                  "max_value": 24,
                  "format_string": "%i day ride streak!",
                  "encouragement_title": "14 Day Streak",
-                 "encouragement_instructions": ""
+                 "encouragement_instructions": "Two weak streak? Tweak streak? Whatever it is you just won't stop."
              },
              {
                  "type": 3,
@@ -99,7 +99,7 @@
                  "max_value": 13,
                  "format_string": "%i day ride streak!",
                  "encouragement_title": "10 Day Streak",
-                 "encouragement_instructions": ""
+                 "encouragement_instructions": "Getting this trophy is in tens."
              },
              {
                  "type": 3,
@@ -108,25 +108,25 @@
                  "max_value": 9,
                  "format_string": "%i day ride streak!",
                  "encouragement_title": "One Week Streak",
-                 "encouragement_instructions": ""
-             },
-             {
-                 "type": 3,
-                 "emoji": "💛",
-                 "min_value": 5,
-                 "max_value": 6,
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "5 Day Streak",
-                 "encouragement_instructions": ""
+                 "encouragement_instructions": "A week stream is no weak streak."
              },
              {
                  "type": 3,
                  "emoji": "💜",
+                 "min_value": 5,
+                 "max_value": 6,
+                 "format_string": "%i day ride streak!",
+                 "encouragement_title": "5 Day Streak",
+                 "encouragement_instructions": "Just ride to work all week. Or ride to not work all week."
+             },
+             {
+                 "type": 3,
+                 "emoji": "🌈",
                  "min_value": 3,
                  "max_value": 4,
                  "format_string": "%i day ride streak!",
                  "encouragement_title": "3 Day Streak",
-                 "encouragement_instructions": ""
+                 "encouragement_instructions": "Starting to look like a tripple streak."
              },
              {
                  "type": 3,
@@ -135,7 +135,7 @@
                  "max_value": 2,
                  "format_string": "%i day ride streak!",
                  "encouragement_title": "2 Day Streak",
-                 "encouragement_instructions": ""
+                 "encouragement_instructions": "Ride two days in a row to start streaking."
              }
              
          ]
