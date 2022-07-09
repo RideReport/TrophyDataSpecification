@@ -7,9 +7,11 @@
          "content": [
              {
                  "type": 1,
-                 "emoji": "🤪",
-                 "exact_value": 23,
-                 "format_string": "Your 23rd ride! Here's a trophy, randomly."
+                 "emoji": "🐣",
+                 "exact_value": 1,
+                 "format_string": "Your first ride!",
+                 "encouragement_title": "First Ride",
+                 "encouragement_instructions": "Ride your bike and we'll give you this baby chick thing."
              },
              {
                  "type": 1,
@@ -20,20 +22,13 @@
                  "encouragement_instructions": "We'll give you a hand with this trophy."
              },
              {
-                 "type": 1,
-                 "emoji": "🐣",
-                 "exact_value": 1,
-                 "format_string": "Your first ride!",
-                 "encouragement_title": "First Ride",
-                 "encouragement_instructions": "Ride your bike and we'll give you this baby chick thing."
-             },
-             {
                  "type": 2,
-                 "emoji": "🙌",
-                 "recurring_value": 1000,
-                 "format_string": "Holy moly, that's your %ith ride!",
-                 "encouragement_title": "100th Ride",
-                 "encouragement_instructions": "This trophy requires a metric killoride."
+                 "emoji": "🎉",
+                 "recurring_value": 10,
+                 "max_value": 200,
+                 "format_string": "Your %ith ride!",
+                 "encouragement_title": "10th Ride",
+                 "encouragement_instructions": "Getting this trophy is in tens."
              },
              {
                  "type": 2,
@@ -45,12 +40,17 @@
              },
              {
                  "type": 2,
-                 "emoji": "🎉",
-                 "recurring_value": 10,
-                 "max_value": 200,
-                 "format_string": "Your %ith ride!",
-                 "encouragement_title": "10th Ride",
-                 "encouragement_instructions": "Getting this trophy is in tens."
+                 "emoji": "🙌",
+                 "recurring_value": 1000,
+                 "format_string": "Holy moly, that's your %ith ride!",
+                 "encouragement_title": "100th Ride",
+                 "encouragement_instructions": "This trophy requires a metric killoride."
+             },
+             {
+                 "type": 1,
+                 "emoji": "🤪",
+                 "exact_value": 23,
+                 "format_string": "Your 23rd ride! Here's a trophy, randomly."
              }
          ]
      },
@@ -59,65 +59,12 @@
          "content": [
              {
                  "type": 3,
-                 "emoji": "🏆",
-                 "min_value": 100,
+                 "emoji": "❤️",
+                 "min_value": 2,
+                 "max_value": 2,
                  "format_string": "%i day ride streak!",
-                 "encouragement_title": "100 Day Streak",
-                 "encouragement_instructions": "We're pretty sure no one has ever actually done this."
-             },
-             {
-                 "type": 3,
-                 "emoji": "🏅",
-                 "min_value": 50,
-                 "max_value": 99,
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "50 Day Streak",
-                 "encouragement_instructions": "Seriously do you ever stop riding?"
-             },
-             {
-                 "type": 3,
-                 "emoji": "🚀",
-                 "min_value": 25,
-                 "max_value": 49,
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "25 Day Streak",
-                 "encouragement_instructions": "You can't stop now."
-             },
-             {
-                 "type": 3,
-                 "emoji": "🔥",
-                 "min_value": 14,
-                 "max_value": 24,
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "14 Day Streak",
-                 "encouragement_instructions": "Two weak streak? Tweak streak? Whatever it is you just won't stop."
-             },
-             {
-                 "type": 3,
-                 "emoji": "💙",
-                 "min_value": 10,
-                 "max_value": 13,
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "10 Day Streak",
-                 "encouragement_instructions": "Getting this trophy is in tens."
-             },
-             {
-                 "type": 3,
-                 "emoji": "💚",
-                 "min_value": 7,
-                 "max_value": 9,
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "One Week Streak",
-                 "encouragement_instructions": "A week stream is no weak streak."
-             },
-             {
-                 "type": 3,
-                 "emoji": "💜",
-                 "min_value": 5,
-                 "max_value": 6,
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "5 Day Streak",
-                 "encouragement_instructions": "Just ride to work all week. Or ride to not work all week."
+                 "encouragement_title": "2 Day Streak",
+                 "encouragement_instructions": "Ride two days in a row to start streaking."
              },
              {
                  "type": 3,
@@ -130,14 +77,66 @@
              },
              {
                  "type": 3,
-                 "emoji": "❤️",
-                 "min_value": 2,
-                 "max_value": 2,
+                 "emoji": "💜",
+                 "min_value": 5,
+                 "max_value": 6,
                  "format_string": "%i day ride streak!",
-                 "encouragement_title": "2 Day Streak",
-                 "encouragement_instructions": "Ride two days in a row to start streaking."
+                 "encouragement_title": "5 Day Streak",
+                 "encouragement_instructions": "Just ride to work all week. Or ride to not work all week."
+             },
+             {
+                 "type": 3,
+                 "emoji": "💚",
+                 "min_value": 7,
+                 "max_value": 9,
+                 "format_string": "%i day ride streak!",
+                 "encouragement_title": "One Week Streak",
+                 "encouragement_instructions": "A week stream is no weak streak."
+             },
+             {
+                 "type": 3,
+                 "emoji": "💙",
+                 "min_value": 10,
+                 "max_value": 13,
+                 "format_string": "%i day ride streak!",
+                 "encouragement_title": "10 Day Streak",
+                 "encouragement_instructions": "Getting this trophy is in tens."
+             },
+             {
+                 "type": 3,
+                 "emoji": "🔥",
+                 "min_value": 14,
+                 "max_value": 24,
+                 "format_string": "%i day ride streak!",
+                 "encouragement_title": "14 Day Streak",
+                 "encouragement_instructions": "Two weak streak? Tweak streak? Whatever it is you just won't stop."
+             },
+             {
+                 "type": 3,
+                 "emoji": "🚀",
+                 "min_value": 25,
+                 "max_value": 49,
+                 "format_string": "%i day ride streak!",
+                 "encouragement_title": "25 Day Streak",
+                 "encouragement_instructions": "You can't stop now."
+             },
+             {
+                 "type": 3,
+                 "emoji": "🏅",
+                 "min_value": 50,
+                 "max_value": 99,
+                 "format_string": "%i day ride streak!",
+                 "encouragement_title": "50 Day Streak",
+                 "encouragement_instructions": "Seriously do you ever stop riding?"
+             },
+             {
+                 "type": 3,
+                 "emoji": "🏆",
+                 "min_value": 100,
+                 "format_string": "%i day ride streak!",
+                 "encouragement_title": "100 Day Streak",
+                 "encouragement_instructions": "We're pretty sure no one has ever actually done this."
              }
-             
          ]
      },
      {
@@ -145,43 +144,11 @@
          "content": [
              {
                  "type": 4,
-                 "emoji": "🌍",
-                 "recurring_value": 40074274.9,
-                 "format_string": "You biked around the world!",
-                 "encouragement_title": "Complete the Around the World Challenge!",
-                 "encouragement_instructions": "You'd have to be Daft to attempt this."
-             },
-             {
-                 "type": 4,
-                 "emoji": "🌘",
-                 "recurring_value": 10921008,
-                 "format_string": "You biked around the moon!",
-                 "encouragement_title": "Bike Around the Moon",
-                 "encouragement_instructions": "Just make like Neil Legstrong."
-             },
-             {
-                 "type": 4,
-                 "emoji": "🇺🇸",
-                 "recurring_value": 4506163,
-                 "format_string": "You biked across the US!",
-                 "encouragement_title": "Bike Across the US",
-                 "encouragement_instructions": "Just coast to the Coast."
-             },
-             {
-                 "type": 4,
-                 "emoji": "🏔",
-                 "recurring_value": 2285268,
-                 "format_string": "You biked across Alaska!",
-                 "encouragement_title": "Bike Across Alaska",
-                 "encouragement_instructions": "Tell me you brought some bug spray."
-             },
-             {
-                 "type": 4,
-                 "emoji": "🌲",
-                 "recurring_value": 643738,
-                 "encouragement_title": "Bike Across Oregon",
-                 "format_string": "You biked across Oregon!",
-                 "encouragement_instructions": "Just keep pedaling and don't get lost in the woods."
+                 "emoji": "🐄",
+                 "recurring_value": 66949,
+                 "format_string": "You biked across Vermont!",
+                 "encouragement_title": "Bike Across Vermont",
+                 "encouragement_instructions": "It isn't that far! Keep biking and you'll earn this trophy before you know it"
              },
              {
                  "type": 4,
@@ -193,12 +160,45 @@
              },
              {
                  "type": 4,
-                 "emoji": "🐄",
-                 "recurring_value": 66949,
-                 "format_string": "You biked across Vermont!",
-                 "encouragement_title": "Bike Across Vermont",
-                 "encouragement_instructions": "It isn't that far! Keep biking and you'll earn this trophy before you know it"
-             }]
+                 "emoji": "🌲",
+                 "recurring_value": 643738,
+                 "encouragement_title": "Bike Across Oregon",
+                 "format_string": "You biked across Oregon!",
+                 "encouragement_instructions": "Just keep pedaling and don't get lost in the woods."
+             },
+             {
+                 "type": 4,
+                 "emoji": "🏔",
+                 "recurring_value": 2285268,
+                 "format_string": "You biked across Alaska!",
+                 "encouragement_title": "Bike Across Alaska",
+                 "encouragement_instructions": "Tell me you brought some bug spray."
+             },
+             {
+                 "type": 4,
+                 "emoji": "🇺🇸",
+                 "recurring_value": 4506163,
+                 "format_string": "You biked across the US!",
+                 "encouragement_title": "Bike Across the US",
+                 "encouragement_instructions": "Just coast to the Coast."
+             },
+             {
+                 "type": 4,
+                 "emoji": "🌘",
+                 "recurring_value": 10921008,
+                 "format_string": "You biked around the moon!",
+                 "encouragement_title": "Bike Around the Moon",
+                 "encouragement_instructions": "Just make like Neil Legstrong."
+             },
+             {
+                 "type": 4,
+                 "emoji": "🌍",
+                 "recurring_value": 40074274.9,
+                 "format_string": "You biked around the world!",
+                 "encouragement_title": "Complete the Around the World Challenge!",
+                 "encouragement_instructions": "You'd have to be Daft to attempt this."
+             }
+           ]
         }
      ]
 }
