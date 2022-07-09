@@ -15,32 +15,37 @@
                  "type": 1,
                  "emoji": "🖐",
                  "exact_value": 5,
-                 "format_string": "Five rides!"
+                 "format_string": "Five rides!",
+                 "instructions": "We'll give you a hand with this trophy."
              },
              {
                  "type": 1,
                  "emoji": "🐣",
                  "exact_value": 1,
-                 "format_string": "Your first ride!"
+                 "format_string": "Your first ride!",
+                 "instructions": "Ride your bike and we'll give you this baby chick thing."
              },
              {
                  "type": 2,
                  "emoji": "🙌",
                  "recurring_value": 1000,
-                 "format_string": "Holy moly, that's your %ith ride!"
+                 "format_string": "Holy moly, that's your %ith ride!",
+                 "instructions": "This trophy requires a metric killoride."
              },
              {
                  "type": 2,
                  "emoji": "💯",
                  "recurring_value": 100,
-                 "format_string": "Whoa, your %ith ride!"
+                 "format_string": "Whoa, your %ith ride!",
+                 "instructions": "Get this when you ride a hundo. Rides."
              },
              {
                  "type": 2,
-                 "emoji": "💯",
+                 "emoji": "🎉",
                  "recurring_value": 10,
                  "max_value": 200,
-                 "format_string": "Your %ith ride!"
+                 "format_string": "Your %ith ride!",
+                 "instructions": "Getting this trophy is in tens."
              }
          ]
      },
@@ -119,43 +124,50 @@
                  "type": 4,
                  "emoji": "🌍",
                  "recurring_value": 40074274.9,
-                 "format_string": "You biked around the world!"
+                 "format_string": "You biked around the world!",
+                 "instructions": "You'd have to be Daft to attempt this."
              },
              {
                  "type": 4,
                  "emoji": "🌘",
                  "recurring_value": 10921008,
-                 "format_string": "You biked around the moon!"
+                 "format_string": "You biked around the moon!",
+                 "instructions": "Just make like Neil Legstrong."
              },
              {
                  "type": 4,
                  "emoji": "🇺🇸",
                  "recurring_value": 4506163,
-                 "format_string": "You biked across the US!"
+                 "format_string": "You biked across the US!",
+                 "instructions": "Tell me you brought some bug spray."
              },
              {
                  "type": 4,
                  "emoji": "🏔",
                  "recurring_value": 2285268,
-                 "format_string": "You biked across Alaska!"
+                 "format_string": "You biked across Alaska!",
+                 "instructions": "Tell me you brought some bug spray."
              },
              {
                  "type": 4,
                  "emoji": "🌲",
                  "recurring_value": 643738,
-                 "format_string": "You biked across Oregon!"
+                 "format_string": "You biked across Oregon!",
+                 "instructions": "Just keep pedaling and don't get lost in the woods."
              },
              {
                  "type": 4,
                  "emoji": "🌅",
                  "recurring_value": 402336,
-                 "format_string": "You biked across California!"
+                 "format_string": "You biked across California!",
+                 "instructions": "Biking across California is no joke! Luckily you don't have to do it all in one day."
              },
              {
                  "type": 4,
                  "emoji": "🐄",
                  "recurring_value": 66949,
-                 "format_string": "You biked across Vermont!"
+                 "format_string": "You biked across Vermont!",
+                 "instructions": "It isn't that far! Keep biking and you'll earn this trophy before you know it"
              }]
         }
      ]
