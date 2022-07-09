@@ -1,6 +1,6 @@
 {
  "requiredIOSClientVersion": 245,
- "content:" {
+ "content":
      [{
          "name": "Every Day Counts",
          "content": [
@@ -110,8 +110,5 @@
              }
              
          ]
-     }
-     ]
-
- }
+     }]
 }
