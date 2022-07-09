@@ -1,0 +1,111 @@
+[{
+	"name": "Every Day Counts",
+	"content": [
+		{
+			"type": 1,
+			"emoji": "🤪",
+			"exact_value": 23,
+			"format_string": "Your 23rd ride! Here's a trophy, randomly."
+		},
+		{
+			"type": 1,
+			"emoji": "🖐",
+			"exact_value": 5,
+			"format_string": "Five rides!"
+		},
+		{
+			"type": 1,
+			"emoji": "🐣",
+			"exact_value": 1,
+			"format_string": "Your first ride!"
+		},
+		{
+			"type": 2,
+			"emoji": "🙌",
+			"recurring_value": 1000,
+			"format_string": "Holy moly, that's your %ith ride!"
+		},
+		{
+			"type": 2,
+			"emoji": "💯",
+			"recurring_value": 100,
+			"format_string": "Whoa, your %ith ride!"
+		},
+		{
+			"type": 2,
+			"emoji": "💯",
+			"recurring_value": 10,
+			"max_value": 200,
+			"format_string": "Your %ith ride!"
+		}
+	]
+},
+{
+	"name": "Start a Streak!",
+	"content": [
+		{
+			"type": 3,
+			"emoji": "🏆",
+			"min_value": 100,
+			"format_string": "%i day ride streak!"
+		},
+		{
+			"type": 3,
+			"emoji": "🏅",
+			"min_value": 50,
+			"max_value": 99,
+			"format_string": "%i day ride streak!"
+		},
+		{
+			"type": 3,
+			"emoji": "🚀",
+			"min_value": 25,
+			"max_value": 49,
+			"format_string": "%i day ride streak!"
+		},
+		{
+			"type": 3,
+			"emoji": "🔥",
+			"min_value": 14,
+			"max_value": 24,
+			"format_string": "%i day ride streak!"
+		},
+		{
+			"type": 3,
+			"emoji": "💙",
+			"min_value": 10,
+			"max_value": 13,
+			"format_string": "%i day ride streak!"
+		},
+		{
+			"type": 3,
+			"emoji": "💚",
+			"min_value": 7,
+			"max_value": 9,
+			"format_string": "%i day ride streak!"
+		},
+		{
+			"type": 3,
+			"emoji": "💛",
+			"min_value": 5,
+			"max_value": 6,
+			"format_string": "%i day ride streak!"
+		},
+		{
+			"type": 3,
+			"emoji": "💜",
+			"min_value": 3,
+			"max_value": 4,
+			"format_string": "%i day ride streak!"
+		},
+		{
+			"type": 3,
+			"emoji": "❤️",
+			"min_value": 2,
+			"max_value": 2,
+			"format_string": "%i day ride streak!"
+		}
+		
+	]
+}
+]
