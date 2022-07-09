@@ -1,6 +1,6 @@
 {
  "version_number": 2,
- "requiredIOSClientVersion": 245,
+ "requiredIOSClientVersion": 247,
  "content":
      [{
          "name": "Every Day Counts",
