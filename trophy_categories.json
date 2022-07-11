@@ -87,10 +87,9 @@
                  "calculation_type": 0,
                  "emoji": "☔️",
                  "conditions": [{
-                     "condition_type": 0,
+                     "condition_type": 3,
                      "range": {
-                         "min_value": 24,
-                         "max_value": 28
+                         "min_value": 1
                      }
                  }],
                  "format_string": "Wet Weather Bonus Points!",
