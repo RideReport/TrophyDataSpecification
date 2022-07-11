@@ -71,7 +71,28 @@
          "content": [
              {
                  "calculation_type": 0,
+                 "emoji": "🌻",
+                 "conditions": [{
+                     "condition_type": 0,
+                     "range": {
+                         "min_value": 24,
+                         "max_value": 28
+                      }
+                 }],
+                 "format_string": "What a Nice Day!",
+                 "encouragement_title": "Nice Day Trophy",
+                 "encouragement_instructions": "Earn a trophy just for going for a ride on a really nice day. How easy is that?"
+             },
+             {
+                 "calculation_type": 0,
                  "emoji": "☔️",
+                 "conditions": [{
+                     "condition_type": 0,
+                     "range": {
+                         "min_value": 24,
+                         "max_value": 28
+                     }
+                 }],
                  "format_string": "Wet Weather Bonus Points!",
                  "encouragement_title": "Rainy Ride Trophy",
                  "encouragement_instructions": "Fair weather riders need not apply."
