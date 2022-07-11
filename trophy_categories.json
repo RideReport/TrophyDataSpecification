@@ -1,5 +1,5 @@
 {
- "version_number": 3,
+ "version_number": 4,
  "requiredIOSClientVersion": 248,
  "content":
      [{
@@ -85,16 +85,79 @@
              },
              {
                  "calculation_type": 0,
+                 "emoji": "🌡",
+                 "conditions": [{
+                     "condition_type": 0,
+                     "range": {
+                         "min_value": 35
+                      }
+                 }],
+                 "format_string": "Blistering Heat Bonus Points!",
+                 "encouragement_title": "Blistering Heat Trophy"
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "🥶",
+                 "conditions": [{
+                     "condition_type": 0,
+                     "range": {
+                         "max_value": 0
+                      }
+                 }],
+                 "format_string": "Cold Weather Bonus Points!",
+                 "encouragement_title": "Cold Weather Trophy",
+                 "encouragement_instructions": "Ride you b…rr…icicle."
+             },
+             {
+                 "calculation_type": 0,
                  "emoji": "☔️",
                  "conditions": [{
                      "condition_type": 3,
                      "range": {
-                         "min_value": 1
+                         "min_value": 1,
+                         "max_value": 4
                      }
                  }],
                  "format_string": "Wet Weather Bonus Points!",
                  "encouragement_title": "Rainy Ride Trophy",
                  "encouragement_instructions": "Fair weather riders need not apply."
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "🏄",
+                 "conditions": [{
+                     "condition_type": 3,
+                     "range": {
+                         "min_value": 5
+                     }
+                 }],
+                 "format_string": "Absolutely Cats Out Bonus!"
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "⛄️",
+                 "conditions": [{
+                     "condition_type": 4,
+                     "range": {
+                         "min_value": 10
+                     }
+                 }],
+                 "format_string": "Snowy Ride Bonus Points!",
+                 "encouragement_title": "Snowy Ride Trophy",
+                 "encouragement_instructions": "Sno joke, riding out there is tricky."
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "🌬",
+                 "conditions": [{
+                     "condition_type": 1,
+                     "range": {
+                         "min_value": 10
+                     }
+                 }],
+                 "format_string": "Blustercluck Bonus Points!",
+                 "encouragement_title": "Windy Ride Trophy",
+                 "encouragement_instructions": "We're a big fan of you for riding in this weather."
              }
          ]
      },
