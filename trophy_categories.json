@@ -29,11 +29,10 @@
                  "calculation_type": 1,
                  "emoji": "🎉",
                  "range": {
-                     "recurring_value": 10,
-                     "max_value": 200
+                     "recurring_value": 10
                  },
                  "format_string": "Your %ith ride!",
-                 "encouragement_title": "10th Ride",
+                 "encouragement_title": "Every 10th Ride",
                  "encouragement_instructions": "Getting this trophy is in tens."
              },
              {
@@ -43,7 +42,7 @@
                      "recurring_value": 100
                  },
                  "format_string": "Whoa, your %ith ride!",
-                 "encouragement_title": "100th Ride",
+                 "encouragement_title": "Every 100th Ride",
                  "encouragement_instructions": "Get this when you ride a hundo. Rides."
              },
              {
@@ -53,7 +52,7 @@
                      "recurring_value": 1000
                  },
                  "format_string": "Holy moly, that's your %ith ride!",
-                 "encouragement_title": "100th Ride",
+                 "encouragement_title": "Every 1000th Ride",
                  "encouragement_instructions": "This trophy requires a metric killoride."
              },
              {
