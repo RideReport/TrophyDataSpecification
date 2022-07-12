@@ -1,6 +1,6 @@
 {
  "version_number": 4,
- "requiredIOSClientVersion": 248,
+ "requiredIOSClientVersion": 249,
  "content":
      [{
          "name": "Every Day Counts",
@@ -157,6 +157,24 @@
                  "format_string": "Blustercluck Bonus Points!",
                  "encouragement_title": "Windy Ride Trophy",
                  "encouragement_instructions": "We're a big fan of you for riding in this weather."
+             }
+         ]
+     },
+     {
+         "name": "Only in Portland",
+         "content": [
+             {
+                 "calculation_type": 0,
+                 "emoji": "🌉",
+                 "conditions": [{
+                     "condition_type": 5,
+                     "range": {
+                         "longitude": -122.676483,
+                         "latitude": 45.523064,
+                         "radius": 16093
+                      }
+                 }],
+                 "format_string": "Bridge city [test]"
              }
          ]
      },
