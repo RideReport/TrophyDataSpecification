@@ -1,5 +1,5 @@
 {
- "version_number": 4,
+ "version_number": 5,
  "requiredIOSClientVersion": 249,
  "content":
      [{
@@ -165,17 +165,90 @@
          "content": [
              {
                  "calculation_type": 0,
-                 "emoji": "🌉",
+                 "emoji": "🏩",
+                 "format_string": "Ride Report HQ visitation points!",
+                 "encouragement_title": "Ride Report visit",
                  "conditions": [{
-                     "condition_type": 5,
+                     "condition_type": 6,
                      "range": {
-                         "longitude": -122.676483,
-                         "latitude": 45.523064,
-                         "radius": 16093
+                         "longitude": -122.66209120000231,
+                         "latitude": 45.52349008672317,
+                         "radius": 80
                       }
-                 }],
-                 "format_string": "Bridge city [test]"
+                 }]
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "🏛",
+                 "format_string": "Civic duty bonus!",
+                 "encouragement_title": "PDX City Hall",
+                 "encouragement_instructions": "Do something civic, get a trophy!",
+                 "conditions": [{
+                     "condition_type": 6,
+                     "range": {
+                         "longitude":  -122.67907651597137,
+                         "latitude": 45.514998427840844,
+                         "radius": 80
+                      }
+                 }]
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "🌹",
+                 "format_string": "Ladd-isfying Chill Bonus!",
+                 "encouragement_title": "Ladd Circle Trophy",
+                 "encouragement_instructions": "Earn a trophy just for doing something silly at Ladd circle.",
+                 "conditions": [{
+                     "condition_type": 6,
+                     "range": {
+                         "longitude":   -122.649181730095,
+                         "latitude": 45.509396865486096,
+                         "radius": 60
+                      }
+                 }]
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "🌋",
+                 "format_string": "Sweet Tabor summit!",
+                 "encouragement_title": "PDX Mt Tabor",
+                 "encouragement_instructions": "Go climb the volcano, get a trophy!",
+                 "conditions": [{
+                     "condition_type": 6,
+                     "range": {
+                         "longitude":  -122.67907651597137,
+                         "latitude": 45.514998427840844,
+                         "radius": 130
+                      }
+                 }]
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "🚂",
+                 "format_string": "Epic train delay!",
+                 "conditions": [{
+                     "condition_type": 6,
+                     "range": {
+                         "longitude":  -122.654157,
+                         "latitude": 45.503358,
+                         "radius": 80
+                      }
+                 }]
+             },
+             {
+                 "calculation_type": 0,
+                 "emoji": "🍩",
+                 "format_string": "Leif Eriksnack Bonus!",
+                 "conditions": [{
+                     "condition_type": 6,
+                     "range": {
+                         "longitude":  -122.7638348937034607,
+                         "latitude": 45.5691582773538499,
+                         "radius": 80
+                      }
+                 }]
              }
+
          ]
      },
      {
