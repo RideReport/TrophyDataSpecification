@@ -1,433 +1,522 @@
 {
- "version_number": 5,
- "requiredIOSClientVersion": 249,
- "content":
-     [{
-         "name": "Every Day Counts",
-         "content": [
-             {
-                 "calculation_type": 1,
-                 "emoji": "🐣",
-                 "range": {
-                     "exact_value": 1
-                 },
-                 "format_string": "Your first ride!",
-                 "encouragement_title": "First Ride",
-                 "encouragement_instructions": "Ride your bike and we'll give you this baby chick thing."
-             },
-             {
-                 "calculation_type": 1,
-                 "emoji": "🖐",
-                 "range": {
-                     "exact_value": 5
-                 },
-                 "format_string": "Five rides!",
-                 "encouragement_title": "5th Ride",
-                 "encouragement_instructions": "We'll give you a hand with this trophy."
-             },
-             {
-                 "calculation_type": 1,
-                 "emoji": "🎉",
-                 "range": {
-                     "recurring_value": 10
-                 },
-                 "format_string": "Your %ith ride!",
-                 "encouragement_title": "Every 10th Ride",
-                 "encouragement_instructions": "Getting this trophy is in tens."
-             },
-             {
-                 "calculation_type": 1,
-                 "emoji": "💯",
-                 "range": {
-                     "recurring_value": 100
-                 },
-                 "format_string": "Whoa, your %ith ride!",
-                 "encouragement_title": "Every 100th Ride",
-                 "encouragement_instructions": "Get this when you ride a hundo. Rides."
-             },
-             {
-                 "calculation_type": 1,
-                 "emoji": "🙌",
-                 "range": {
-                     "recurring_value": 1000
-                 },
-                 "format_string": "Holy moly, that's your %ith ride!",
-                 "encouragement_title": "Every 1000th Ride",
-                 "encouragement_instructions": "This trophy requires a metric killoride."
-             },
-             {
-                 "calculation_type": 1,
-                 "emoji": "🤪",
-                 "range": {
-                     "exact_value": 23
-                 },
-                 "format_string": "Your 23rd ride! Here's a trophy, randomly."
-             }
-         ]
-     },
-     {
-         "name": "Wild Weather",
-         "content": [
-             {
-                 "calculation_type": 0,
-                 "emoji": "🌻",
-                 "conditions": [{
-                     "condition_type": 0,
-                     "range": {
-                         "min_value": 24,
-                         "max_value": 28
-                      }
-                 }],
-                 "format_string": "What a Nice Day!",
-                 "encouragement_title": "Nice Day Trophy",
-                 "encouragement_instructions": "Earn a trophy just for going for a ride on a really nice day. How easy is that?"
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🌡",
-                 "conditions": [{
-                     "condition_type": 0,
-                     "range": {
-                         "min_value": 35
-                      }
-                 }],
-                 "format_string": "Blistering Heat Bonus Points!",
-                 "encouragement_title": "Blistering Heat Trophy"
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🥶",
-                 "conditions": [{
-                     "condition_type": 0,
-                     "range": {
-                         "max_value": 0
-                      }
-                 }],
-                 "format_string": "Cold Weather Bonus Points!",
-                 "encouragement_title": "Cold Weather Trophy",
-                 "encouragement_instructions": "Ride you b…rr…icicle."
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "☔️",
-                 "conditions": [{
-                     "condition_type": 3,
-                     "range": {
-                         "min_value": 1,
-                         "max_value": 4
-                     }
-                 }],
-                 "format_string": "Wet Weather Bonus Points!",
-                 "encouragement_title": "Rainy Ride Trophy",
-                 "encouragement_instructions": "Fair weather riders need not apply."
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🏄",
-                 "conditions": [{
-                     "condition_type": 3,
-                     "range": {
-                         "min_value": 5
-                     }
-                 }],
-                 "format_string": "Absolutely Cats Out Bonus!"
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "⛄️",
-                 "conditions": [{
-                     "condition_type": 4,
-                     "range": {
-                         "min_value": 10
-                     }
-                 }],
-                 "format_string": "Snowy Ride Bonus Points!",
-                 "encouragement_title": "Snowy Ride Trophy",
-                 "encouragement_instructions": "Sno joke, riding out there is tricky."
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🌬",
-                 "conditions": [{
-                     "condition_type": 1,
-                     "range": {
-                         "min_value": 10
-                     }
-                 }],
-                 "format_string": "Blustercluck Bonus Points!",
-                 "encouragement_title": "Windy Ride Trophy",
-                 "encouragement_instructions": "We're a big fan of you for riding in this weather."
-             }
-         ]
-     },
-     {
-         "name": "Only in Portland",
-         "content": [
-             {
-                 "calculation_type": 0,
-                 "emoji": "🏩",
-                 "format_string": "Ride Report HQ visitation points!",
-                 "encouragement_title": "Ride Report visit",
-                 "conditions": [{
-                     "condition_type": 6,
-                     "range": {
-                         "longitude": -122.66209120000231,
-                         "latitude": 45.52349008672317,
-                         "radius": 80
-                      }
-                 }]
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🏛",
-                 "format_string": "Civic duty bonus!",
-                 "encouragement_title": "PDX City Hall",
-                 "encouragement_instructions": "Do something civic, get a trophy!",
-                 "conditions": [{
-                     "condition_type": 6,
-                     "range": {
-                         "longitude":  -122.67907651597137,
-                         "latitude": 45.514998427840844,
-                         "radius": 80
-                      }
-                 }]
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🌹",
-                 "format_string": "Ladd-isfying Chill Bonus!",
-                 "encouragement_title": "Ladd Circle Trophy",
-                 "encouragement_instructions": "Earn a trophy just for doing something silly at Ladd circle.",
-                 "conditions": [{
-                     "condition_type": 6,
-                     "range": {
-                         "longitude":   -122.649181730095,
-                         "latitude": 45.509396865486096,
-                         "radius": 60
-                      }
-                 }]
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🌋",
-                 "format_string": "Sweet Tabor summit!",
-                 "encouragement_title": "PDX Mt Tabor",
-                 "encouragement_instructions": "Go climb the volcano, get a trophy!",
-                 "conditions": [{
-                     "condition_type": 6,
-                     "range": {
-                         "longitude":  -122.67907651597137,
-                         "latitude": 45.514998427840844,
-                         "radius": 130
-                      }
-                 }]
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🚂",
-                 "format_string": "Epic train delay!",
-                 "conditions": [{
-                     "condition_type": 6,
-                     "range": {
-                         "longitude":  -122.654157,
-                         "latitude": 45.503358,
-                         "radius": 80
-                      }
-                 }]
-             },
-             {
-                 "calculation_type": 0,
-                 "emoji": "🍩",
-                 "format_string": "Leif Eriksnack Bonus!",
-                 "conditions": [{
-                     "condition_type": 6,
-                     "range": {
-                         "longitude":  -122.7638348937034607,
-                         "latitude": 45.5691582773538499,
-                         "radius": 80
-                      }
-                 }]
-             }
-
-         ]
-     },
-     {
-         "name": "Start a Streak!",
-         "content": [
-             {
-                 "calculation_type": 3,
-                 "emoji": "❤️",
-                 "range": {
-                     "min_value": 2,
-                     "max_value": 2
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "2 Day Streak",
-                 "encouragement_instructions": "Ride two days in a row to start streaking."
-             },
-             {
-                 "calculation_type": 3,
-                 "emoji": "🌈",
-                 "range": {
-                     "min_value": 3,
-                     "max_value": 4
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "3 Day Streak",
-                 "encouragement_instructions": "Starting to look like a tripple streak."
-             },
-             {
-                 "calculation_type": 3,
-                 "emoji": "💜",
-                 "range": {
-                     "min_value": 5,
-                     "max_value": 6
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "5 Day Streak",
-                 "encouragement_instructions": "Just ride to work all week. Or ride to not work all week."
-             },
-             {
-                 "calculation_type": 3,
-                 "emoji": "💚",
-                 "range": {
-                     "min_value": 7,
-                     "max_value": 9
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "One Week Streak",
-                 "encouragement_instructions": "A week stream is no weak streak."
-             },
-             {
-                 "calculation_type": 3,
-                 "emoji": "💙",
-                 "range": {
-                     "min_value": 10,
-                     "max_value": 13
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "10 Day Streak",
-                 "encouragement_instructions": "Getting this trophy is in tens."
-             },
-             {
-                 "calculation_type": 3,
-                 "emoji": "🔥",
-                 "range": {
-                     "min_value": 14,
-                     "max_value": 24
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "14 Day Streak",
-                 "encouragement_instructions": "Two weak streak? Tweak streak? Whatever it is you just won't stop."
-             },
-             {
-                 "calculation_type": 3,
-                 "emoji": "🚀",
-                 "range": {
-                     "min_value": 25,
-                     "max_value": 49
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "25 Day Streak",
-                 "encouragement_instructions": "You can't stop now."
-             },
-             {
-                 "calculation_type": 3,
-                 "emoji": "🏅",
-                 "range": {
-                     "min_value": 50,
-                     "max_value": 99
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "50 Day Streak",
-                 "encouragement_instructions": "Seriously do you ever stop riding?"
-             },
-             {
-                 "calculation_type": 3,
-                 "emoji": "🏆",
-                 "range": {
-                     "min_value": 100
-                 },
-                 "format_string": "%i day ride streak!",
-                 "encouragement_title": "100 Day Streak",
-                 "encouragement_instructions": "We're pretty sure no one has ever actually done this."
-             }
-         ]
-     },
-     {
-         "name": "Around the World",
-         "content": [
-             {
-                 "calculation_type": 2,
-                 "emoji": "🐄",
-                 "range": {
-                     "recurring_value": 66949
-                 },
-                 "format_string": "You biked across Vermont!",
-                 "encouragement_title": "Bike Across Vermont",
-                 "encouragement_instructions": "It isn't that far! Keep biking and you'll earn this trophy before you know it"
-             },
-             {
-                 "calculation_type": 2,
-                 "emoji": "🌅",
-                 "range": {
-                     "recurring_value": 402336
-                 },
-                 "encouragement_title": "Bike Across California",
-                 "format_string": "You biked across California!",
-                 "encouragement_instructions": "Biking across California is no joke! Luckily you don't have to do it all in one day."
-             },
-             {
-                 "calculation_type": 2,
-                 "emoji": "🌲",
-                 "range": {
-                     "recurring_value": 643738
-                 },
-                 "encouragement_title": "Bike Across Oregon",
-                 "format_string": "You biked across Oregon!",
-                 "encouragement_instructions": "Just keep pedaling and don't get lost in the woods."
-             },
-             {
-                 "calculation_type": 2,
-                 "emoji": "🏔",
-                 "range": {
-                     "recurring_value": 2285268
-                 },
-                 "format_string": "You biked across Alaska!",
-                 "encouragement_title": "Bike Across Alaska",
-                 "encouragement_instructions": "Tell me you brought some bug spray."
-             },
-             {
-                 "calculation_type": 2,
-                 "emoji": "🇺🇸",
-                 "range": {
-                     "recurring_value": 4506163
-                 },
-                 "format_string": "You biked across the US!",
-                 "encouragement_title": "Bike Across the US",
-                 "encouragement_instructions": "Just coast to the Coast."
-             },
-             {
-                 "calculation_type": 2,
-                 "emoji": "🌘",
-                 "range": {
-                     "recurring_value": 10921008
-                 },
-                 "format_string": "You biked around the moon!",
-                 "encouragement_title": "Bike Around the Moon",
-                 "encouragement_instructions": "Just make like Neil Legstrong."
-             },
-             {
-                 "calculation_type": 2,
-                 "emoji": "🌍",
-                 "range": {
-                     "recurring_value": 40074275
-                 },
-                 "format_string": "You biked around the world!",
-                 "encouragement_title": "Complete the Around the World Challenge!",
-                 "encouragement_instructions": "You'd have to be Daft to attempt this."
-             }
-           ]
+    "version_number": 5,
+    "requiredIOSClientVersion": 249,
+    "content": [
+        {
+            "name": "Every Day Counts",
+            "content": [
+                {
+                    "calculation_type": 1,
+                    "emoji": "🐣",
+                    "range": {
+                        "exact_value": 1
+                    },
+                    "format_string": "Your first ride!",
+                    "encouragement_title": "First Ride",
+                    "encouragement_instructions": "Ride your bike and we'll give you this baby chick thing."
+                },
+                {
+                    "calculation_type": 1,
+                    "emoji": "🖐",
+                    "range": {
+                        "exact_value": 5
+                    },
+                    "format_string": "Five rides!",
+                    "encouragement_title": "5th Ride",
+                    "encouragement_instructions": "We'll give you a hand with this trophy."
+                },
+                {
+                    "calculation_type": 1,
+                    "emoji": "🎉",
+                    "range": {
+                        "recurring_value": 10
+                    },
+                    "format_string": "Your %ith ride!",
+                    "encouragement_title": "Every 10th Ride",
+                    "encouragement_instructions": "Getting this trophy is in tens."
+                },
+                {
+                    "calculation_type": 1,
+                    "emoji": "💯",
+                    "range": {
+                        "recurring_value": 100
+                    },
+                    "format_string": "Whoa, your %ith ride!",
+                    "encouragement_title": "Every 100th Ride",
+                    "encouragement_instructions": "Get this when you ride a hundo. Rides."
+                },
+                {
+                    "calculation_type": 1,
+                    "emoji": "🙌",
+                    "range": {
+                        "recurring_value": 1000
+                    },
+                    "format_string": "Holy moly, that's your %ith ride!",
+                    "encouragement_title": "Every 1000th Ride",
+                    "encouragement_instructions": "This trophy requires a metric killoride."
+                },
+                {
+                    "calculation_type": 1,
+                    "emoji": "🤪",
+                    "range": {
+                        "exact_value": 23
+                    },
+                    "format_string": "Your 23rd ride! Here's a trophy, randomly."
+                }
+            ]
+        },
+        {
+            "name": "Wild Weather",
+            "content": [
+                {
+                    "calculation_type": 0,
+                    "emoji": "🌻",
+                    "conditions": [
+                        {
+                            "condition_type": 0,
+                            "range": {
+                                "min_value": 24,
+                                "max_value": 28
+                            }
+                        }
+                    ],
+                    "format_string": "What a Nice Day!",
+                    "encouragement_title": "Nice Day Trophy",
+                    "encouragement_instructions": "Earn a trophy just for going for a ride on a really nice day. How easy is that?"
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🌡",
+                    "conditions": [
+                        {
+                            "condition_type": 0,
+                            "range": {
+                                "min_value": 35
+                            }
+                        }
+                    ],
+                    "format_string": "Blistering Heat Bonus Points!",
+                    "encouragement_title": "Blistering Heat Trophy"
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🥶",
+                    "conditions": [
+                        {
+                            "condition_type": 0,
+                            "range": {
+                                "max_value": 0
+                            }
+                        }
+                    ],
+                    "format_string": "Cold Weather Bonus Points!",
+                    "encouragement_title": "Cold Weather Trophy",
+                    "encouragement_instructions": "Ride you b…rr…icicle."
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "☔️",
+                    "conditions": [
+                        {
+                            "condition_type": 3,
+                            "range": {
+                                "min_value": 1,
+                                "max_value": 4
+                            }
+                        }
+                    ],
+                    "format_string": "Wet Weather Bonus Points!",
+                    "encouragement_title": "Rainy Ride Trophy",
+                    "encouragement_instructions": "Fair weather riders need not apply."
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🏄",
+                    "conditions": [
+                        {
+                            "condition_type": 3,
+                            "range": {
+                                "min_value": 5
+                            }
+                        }
+                    ],
+                    "format_string": "Absolutely Cats Out Bonus!"
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "⛄️",
+                    "conditions": [
+                        {
+                            "condition_type": 4,
+                            "range": {
+                                "min_value": 10
+                            }
+                        }
+                    ],
+                    "format_string": "Snowy Ride Bonus Points!",
+                    "encouragement_title": "Snowy Ride Trophy",
+                    "encouragement_instructions": "Sno joke, riding out there is tricky."
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🌬",
+                    "conditions": [
+                        {
+                            "condition_type": 1,
+                            "range": {
+                                "min_value": 10
+                            }
+                        }
+                    ],
+                    "format_string": "Blustercluck Bonus Points!",
+                    "encouragement_title": "Windy Ride Trophy",
+                    "encouragement_instructions": "We're a big fan of you for riding in this weather."
+                }
+            ]
+        },
+        {
+            "name": "Only in Portland",
+            "content": [
+                {
+                    "calculation_type": 0,
+                    "emoji": "🏩",
+                    "format_string": "Ride Report HQ visitation points!",
+                    "encouragement_title": "Ride Report visit",
+                    "conditions": [
+                        {
+                            "condition_type": 6,
+                            "range": {
+                                "longitude": -122.66209120000231,
+                                "latitude": 45.52349008672317,
+                                "radius": 80
+                            }
+                        }
+                    ]
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🏛",
+                    "format_string": "Civic duty bonus!",
+                    "encouragement_title": "PDX City Hall",
+                    "encouragement_instructions": "Do something civic, get a trophy!",
+                    "conditions": [
+                        {
+                            "condition_type": 6,
+                            "range": {
+                                "longitude": -122.67907651597137,
+                                "latitude": 45.514998427840844,
+                                "radius": 80
+                            }
+                        }
+                    ]
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🌹",
+                    "format_string": "Ladd-isfying Chill Bonus!",
+                    "encouragement_title": "Ladd Circle Trophy",
+                    "encouragement_instructions": "Earn a trophy just for doing something silly at Ladd circle.",
+                    "conditions": [
+                        {
+                            "condition_type": 6,
+                            "range": {
+                                "longitude": -122.649181730095,
+                                "latitude": 45.509396865486096,
+                                "radius": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🌋",
+                    "format_string": "Sweet Tabor summit!",
+                    "encouragement_title": "PDX Mt Tabor",
+                    "encouragement_instructions": "Go climb the volcano, get a trophy!",
+                    "conditions": [
+                        {
+                            "condition_type": 6,
+                            "range": {
+                                "longitude": -122.67907651597137,
+                                "latitude": 45.514998427840844,
+                                "radius": 130
+                            }
+                        }
+                    ]
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🚂",
+                    "format_string": "Epic train delay!",
+                    "conditions": [
+                        {
+                            "condition_type": 6,
+                            "range": {
+                                "longitude": -122.654157,
+                                "latitude": 45.503358,
+                                "radius": 80
+                            }
+                        }
+                    ]
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🍩",
+                    "format_string": "Leif Eriksnack Bonus!",
+                    "conditions": [
+                        {
+                            "condition_type": 6,
+                            "range": {
+                                "longitude": -122.76383489370346,
+                                "latitude": 45.56915827735385,
+                                "radius": 80
+                            }
+                        }
+                    ]
+                },
+                {
+                    "format_string": "Fresh Belvedere Hyper Chill Bonus!",
+                    "emoji": "🌉",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 50,
+                                "longitude": -122.66592973389133,
+                                "latitude": 45.50555948434323
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0
+                },
+                {
+                    "format_string": "Mock’s Picnic Bonus!",
+                    "encouragement_title": "Mock’s Crest",
+                    "emoji": "🧺",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 50,
+                                "longitude": -122.69092382365,
+                                "latitude": 45.554205456723025
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Ride out to Mock’s Crest (picnic optional)."
+                },
+                {
+                    "format_string": "Swim dock ftw!",
+                    "emoji": "🏊",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 50,
+                                "longitude": -122.66767588570585,
+                                "latitude": 45.510892578231335
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0
+                },
+                {
+                    "format_string": "Poet’s Beach Bonus!",
+                    "encouragement_title": "Poet’s Beach",
+                    "emoji": "⛱",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 80,
+                                "longitude": -122.6715511624487,
+                                "latitude": 45.50700679942485
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Grab a suit, ride your bike, get a trophy."
+                }
+            ]
+        },
+        {
+            "name": "Start a Streak!",
+            "content": [
+                {
+                    "calculation_type": 3,
+                    "emoji": "❤️",
+                    "range": {
+                        "min_value": 2,
+                        "max_value": 2
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "2 Day Streak",
+                    "encouragement_instructions": "Ride two days in a row to start streaking."
+                },
+                {
+                    "calculation_type": 3,
+                    "emoji": "🌈",
+                    "range": {
+                        "min_value": 3,
+                        "max_value": 4
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "3 Day Streak",
+                    "encouragement_instructions": "Starting to look like a tripple streak."
+                },
+                {
+                    "calculation_type": 3,
+                    "emoji": "💜",
+                    "range": {
+                        "min_value": 5,
+                        "max_value": 6
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "5 Day Streak",
+                    "encouragement_instructions": "Just ride to work all week. Or ride to not work all week."
+                },
+                {
+                    "calculation_type": 3,
+                    "emoji": "💚",
+                    "range": {
+                        "min_value": 7,
+                        "max_value": 9
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "One Week Streak",
+                    "encouragement_instructions": "A week stream is no weak streak."
+                },
+                {
+                    "calculation_type": 3,
+                    "emoji": "💙",
+                    "range": {
+                        "min_value": 10,
+                        "max_value": 13
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "10 Day Streak",
+                    "encouragement_instructions": "Getting this trophy is in tens."
+                },
+                {
+                    "calculation_type": 3,
+                    "emoji": "🔥",
+                    "range": {
+                        "min_value": 14,
+                        "max_value": 24
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "14 Day Streak",
+                    "encouragement_instructions": "Two weak streak? Tweak streak? Whatever it is you just won't stop."
+                },
+                {
+                    "calculation_type": 3,
+                    "emoji": "🚀",
+                    "range": {
+                        "min_value": 25,
+                        "max_value": 49
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "25 Day Streak",
+                    "encouragement_instructions": "You can't stop now."
+                },
+                {
+                    "calculation_type": 3,
+                    "emoji": "🏅",
+                    "range": {
+                        "min_value": 50,
+                        "max_value": 99
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "50 Day Streak",
+                    "encouragement_instructions": "Seriously do you ever stop riding?"
+                },
+                {
+                    "calculation_type": 3,
+                    "emoji": "🏆",
+                    "range": {
+                        "min_value": 100
+                    },
+                    "format_string": "%i day ride streak!",
+                    "encouragement_title": "100 Day Streak",
+                    "encouragement_instructions": "We're pretty sure no one has ever actually done this."
+                }
+            ]
+        },
+        {
+            "name": "Around the World",
+            "content": [
+                {
+                    "calculation_type": 2,
+                    "emoji": "🐄",
+                    "range": {
+                        "recurring_value": 66949
+                    },
+                    "format_string": "You biked across Vermont!",
+                    "encouragement_title": "Bike Across Vermont",
+                    "encouragement_instructions": "It isn't that far! Keep biking and you'll earn this trophy before you know it"
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🌅",
+                    "range": {
+                        "recurring_value": 402336
+                    },
+                    "encouragement_title": "Bike Across California",
+                    "format_string": "You biked across California!",
+                    "encouragement_instructions": "Biking across California is no joke! Luckily you don't have to do it all in one day."
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🌲",
+                    "range": {
+                        "recurring_value": 643738
+                    },
+                    "encouragement_title": "Bike Across Oregon",
+                    "format_string": "You biked across Oregon!",
+                    "encouragement_instructions": "Just keep pedaling and don't get lost in the woods."
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🏔",
+                    "range": {
+                        "recurring_value": 2285268
+                    },
+                    "format_string": "You biked across Alaska!",
+                    "encouragement_title": "Bike Across Alaska",
+                    "encouragement_instructions": "Tell me you brought some bug spray."
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🇺🇸",
+                    "range": {
+                        "recurring_value": 4506163
+                    },
+                    "format_string": "You biked across the US!",
+                    "encouragement_title": "Bike Across the US",
+                    "encouragement_instructions": "Just coast to the Coast."
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🌘",
+                    "range": {
+                        "recurring_value": 10921008
+                    },
+                    "format_string": "You biked around the moon!",
+                    "encouragement_title": "Bike Around the Moon",
+                    "encouragement_instructions": "Just make like Neil Legstrong."
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🌍",
+                    "range": {
+                        "recurring_value": 40074275
+                    },
+                    "format_string": "You biked around the world!",
+                    "encouragement_title": "Complete the Around the World Challenge!",
+                    "encouragement_instructions": "You'd have to be Daft to attempt this."
+                }
+            ]
         }
-     ]
+    ]
 }
