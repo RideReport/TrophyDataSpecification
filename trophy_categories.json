@@ -341,6 +341,42 @@
             ]
         },
         {
+            "name": "Ride Reporters",
+            "content": [
+                {
+                    "calculation_type": 0,
+                    "emoji": "🍦",
+                    "format_string": "The latest scoop!",
+                    "reward": {
+                        "description": "Free* Ice Cream Cone",
+                        "organization_name": "Fifty Licks",
+                        "title": "Get a Free ice Fifty Licks",
+                        "expires": "2022-07-14T18:00:00Z",
+                        "coupon":  {
+                            "message": "A$KBRIAN"
+                        }
+                    },
+                    "conditions": [
+                        {
+                            "condition_type": 6,
+                            "range": {
+                                "longitude": -122.66209120000231,
+                                "latitude": 45.52349008672317,
+                                "radius": 80
+                            }
+                        },
+                        {
+                            "range": {
+                                "to_date": "2022-07-14T18:00:00Z",
+                                "from_date": "2022-07-14T23:00:00Z"
+                            },
+                            "condition_type": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Start a Streak!",
             "content": [
                 {
