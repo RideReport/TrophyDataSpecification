@@ -350,7 +350,7 @@
                     "reward": {
                         "description": "Free* Ice Cream Cone",
                         "organization_name": "Fifty Licks",
-                        "title": "Get a Free ice Fifty Licks",
+                        "title": "Get a free ice cream cone from Brian at Fifty Licks",
                         "expires": "2022-07-14T18:00:00Z",
                         "coupon":  {
                             "message": "A$KBRIAN"
