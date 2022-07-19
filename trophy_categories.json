@@ -237,9 +237,9 @@
                         {
                             "condition_type": 6,
                             "range": {
-                                "longitude": -122.67907651597137,
-                                "latitude": 45.514998427840844,
-                                "radius": 130
+                                "longitude": -122.59291725603039,
+                                "latitude": 45.512664968733084,
+                                "radius": 120
                             }
                         }
                     ]
