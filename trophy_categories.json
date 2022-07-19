@@ -91,12 +91,27 @@
                         {
                             "condition_type": 0,
                             "range": {
-                                "min_value": 35
+                                "min_value": 33
                             }
                         }
                     ],
                     "format_string": "Blistering Heat Bonus Points!",
                     "encouragement_title": "Blistering Heat Trophy"
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🍳",
+                    "conditions": [
+                        {
+                            "condition_type": 0,
+                            "range": {
+                                "min_value": 38
+                            }
+                        }
+                    ],
+                    "format_string": "It's over 100 degress out!",
+                    "encouragement_title": "Fry an Egg on the Sidewalk Trophy",
+                    "encouragement_instructions": "Sizzle sizzle"
                 },
                 {
                     "calculation_type": 0,
