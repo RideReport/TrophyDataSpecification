@@ -261,6 +261,23 @@
                 },
                 {
                     "calculation_type": 0,
+                    "emoji": "🪵",
+                    "format_string": "Big Bunyan Bonus!",
+                    "encouragement_title": "Big Bunyan Trophy",
+                    "encouragement_instructions": "Visit yer local lumberjack 🪓🌲🥞!",
+                    "conditions": [
+                        {
+                            "condition_type": 6,
+                            "range": {
+                                "longitude": -122.68889590548554,
+                                "latitude": 45.587658203844562,
+                                "radius": 100
+                            }
+                        }
+                    ]
+                },
+                {
+                    "calculation_type": 0,
                     "emoji": "🚂",
                     "format_string": "Epic train delay!",
                     "conditions": [
