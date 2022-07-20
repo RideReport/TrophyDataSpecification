@@ -1,5 +1,5 @@
 {
-    "version_number": 5,
+    "version_number": 6,
     "requiredIOSClientVersion": 249,
     "content": [
         {
@@ -589,21 +589,11 @@
             ]
         },
         {
-            "name": "Carbon Emissions Avoided",
+            "name": "Climate Superhero",
             "content": [
                 {
                     "calculation_type": 2,
-                    "emoji": "💯",
-                    "range": {
-                        "recurring_value": 398
-                    },
-                    "format_string": "You avoided a 100 grams of co2!",
-                    "encouragement_title": "Avoid emitting 100g of co2",
-                    "encouragement_instructions": "Just ride your bike instead of driving to avoid emitting co2"
-                },
-                {
-                    "calculation_type": 2,
-                    "emoji": "🥪",
+                    "emoji": "💥",
                     "range": {
                         "recurring_value": 3983
                     },
@@ -620,6 +610,16 @@
                     "format_string": "You avoided a burning 1 gallon of gas!",
                     "encouragement_title": "Save 1 gallon of gas from being burned",
                     "encouragement_instructions": "Just ride your bike instead of driving to avoid emitting co2"
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🛢",
+                    "range": {
+                        "recurring_value": 566416
+                    },
+                    "format_string": "You saved burning a whole tank of gas!",
+                    "encouragement_title": "Save a whole tank of gas from being burned (like 16 gallons)!",
+                    "encouragement_instructions": "Just ride your bike instead of driving to avoid burning that gas"
                 },
                 {
                     "calculation_type": 2,
