@@ -593,6 +593,16 @@
             "content": [
                 {
                     "calculation_type": 2,
+                    "emoji": "✨",
+                    "range": {
+                        "exact_value": 398
+                    },
+                    "format_string": "You avoided emittiing 100 grams of co2!",
+                    "encouragement_title": "Avoid emitting 100g of co2",
+                    "encouragement_instructions": "Just ride your bike to start fighting climate change!"
+                },
+                {
+                    "calculation_type": 2,
                     "emoji": "💥",
                     "range": {
                         "recurring_value": 3983
@@ -613,13 +623,33 @@
                 },
                 {
                     "calculation_type": 2,
-                    "emoji": "🛢",
+                    "emoji": "🚙",
                     "range": {
                         "recurring_value": 566416
                     },
                     "format_string": "You saved burning a whole tank of gas!",
                     "encouragement_title": "Save a whole car tank of gas from being burned (like 16ish gallons)!",
                     "encouragement_instructions": "Just ride your bike instead of driving to save a whole tank o gas"
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🛢",
+                    "range": {
+                        "recurring_value": 1147233
+                    },
+                    "format_string": "You saved emissions from a whole barrel of crude, dude!",
+                    "encouragement_title": "Save a whole barrel of crude oil from being burned.",
+                    "encouragement_instructions": "Just ride your bike instead of driving to save a whole barrel of crude"
+                },
+                {
+                    "calculation_type": 2,
+                    "emoji": "🛬",
+                    "range": {
+                        "recurring_value": 2776509
+                    },
+                    "format_string": "You avoided the emissions of a round trip flight from LA to NYC!",
+                    "encouragement_title": "Avoid the emissions from a round trip cross country flight in the US.",
+                    "encouragement_instructions": "Flying pollutes. Ride your bike (a lot) instead!"
                 },
                 {
                     "calculation_type": 2,
