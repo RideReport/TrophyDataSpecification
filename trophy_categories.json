@@ -598,7 +598,7 @@
                         "exact_value": 398
                     },
                     "format_string": "You avoided emittiing 100 grams of co2!",
-                    "encouragement_title": "Avoid emitting 100g of co2",
+                    "encouragement_title": "100g of co2",
                     "encouragement_instructions": "Just ride your bike to start fighting climate change!"
                 },
                 {
@@ -608,7 +608,7 @@
                         "recurring_value": 3983
                     },
                     "format_string": "You avoided a 1000 grams of co2!",
-                    "encouragement_title": "Avoid emitting 1000g of co2",
+                    "encouragement_title": "1kg of co2",
                     "encouragement_instructions": "Just ride your bike instead of driving to avoid emitting co2"
                 },
                 {
@@ -618,7 +618,7 @@
                         "recurring_value": 11800
                     },
                     "format_string": "Brontosaurus bonus!",
-                    "encouragement_title": "Prevent a 30 ton dinosaur from being burned into the atmosphere",
+                    "encouragement_title": "Save a dinosaur!",
                     "encouragement_instructions": "Keep the fossil part of the fossil fuel underground."
                 },
                 {
@@ -628,7 +628,7 @@
                         "recurring_value": 35401
                     },
                     "format_string": "You avoided a burning 1 gallon of gas!",
-                    "encouragement_title": "Save 1 gallon of gas from being burned",
+                    "encouragement_title": "1 gallon of gas",
                     "encouragement_instructions": "Rider yer bike to save burning a whole gallon of gas"
                 },
                 {
@@ -638,7 +638,7 @@
                         "recurring_value": 566416
                     },
                     "format_string": "You saved burning a whole tank of gas!",
-                    "encouragement_title": "Save a whole car tank of gas from being burned (like 16ish gallons)!",
+                    "encouragement_title": "Tank of gas",
                     "encouragement_instructions": "Just ride your bike instead of driving to save a whole tank o gas"
                 },
                 {
@@ -648,7 +648,7 @@
                         "recurring_value": 1147233
                     },
                     "format_string": "You saved emissions from a whole barrel of crude, dude!",
-                    "encouragement_title": "Save a whole barrel of crude oil from being burned.",
+                    "encouragement_title": "A whole barrel of crude",
                     "encouragement_instructions": "Just ride your bike instead of driving to save a whole barrel of crude"
                 },
                 {
@@ -658,7 +658,7 @@
                         "recurring_value": 2776509
                     },
                     "format_string": "You avoided the emissions of a round trip flight from LA to NYC!",
-                    "encouragement_title": "Avoid the emissions from a round trip cross country flight in the US.",
+                    "encouragement_title": "LA <> NYC emissions",
                     "encouragement_instructions": "Flying pollutes. Ride your bike (a lot) instead!"
                 },
                 {
@@ -668,7 +668,7 @@
                         "recurring_value": 3613784  
                     },
                     "format_string": "You avoided emitting 1 TON of co2!",
-                    "encouragement_title": "Save 1 TON of co2 through biking inistead of driving!",
+                    "encouragement_title": "1 TON!",
                     "encouragement_instructions": "Just ride your bike 2,245 miles instead of driving to avoid emitting a literal TON of co2"
                 }
             ]
