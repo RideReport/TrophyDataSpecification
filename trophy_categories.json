@@ -32,7 +32,7 @@
                         "recurring_value": 10
                     },
                     "format_string": "Your %ith ride!",
-                    "encouragement_title": "Every 10th Ride",
+                    "encouragement_title": "Every Tenth Ride",
                     "encouragement_instructions": "Getting this trophy is in tens."
                 },
                 {
