@@ -589,13 +589,13 @@
             ]
         },
         {
-            "name": "Carbon Emissions Avoided", // See https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
+            "name": "Carbon Emissions Avoided",
             "content": [
                 {
                     "calculation_type": 2,
                     "emoji": "💯",
                     "range": {
-                        "recurring_value": 398 // 100g of co2  
+                        "recurring_value": 398
                     },
                     "format_string": "You avoided a 100 grams of co2!",
                     "encouragement_title": "Avoid emitting 100g of co2",
@@ -605,7 +605,7 @@
                     "calculation_type": 2,
                     "emoji": "🥪",
                     "range": {
-                        "recurring_value": 3983 // 1000g of co2  
+                        "recurring_value": 3983
                     },
                     "format_string": "You avoided a 1000 grams of co2!",
                     "encouragement_title": "Avoid emitting 1000g of co2",
@@ -615,7 +615,7 @@
                     "calculation_type": 2,
                     "emoji": "⛽️",
                     "range": {
-                        "recurring_value": 35401 // 8887g of co2 = 35401 meters = 1 gallon of gas
+                        "recurring_value": 35401
                     },
                     "format_string": "You avoided a burning 1 gallon of gas!",
                     "encouragement_title": "Save 1 gallon of gas from being burned",
@@ -625,7 +625,7 @@
                     "calculation_type": 2,
                     "emoji": "🏋️",
                     "range": {
-                        "recurring_value": 3613784 // 1 ton of co2  
+                        "recurring_value": 3613784  
                     },
                     "format_string": "You avoided emitting 1 TON of co2!",
                     "encouragement_title": "Save 1 TON of co2 through biking inistead of driving!",
