@@ -613,6 +613,16 @@
                 },
                 {
                     "calculation_type": 2,
+                    "emoji": "🦕",
+                    "range": {
+                        "recurring_value": 11800
+                    },
+                    "format_string": "Brontosaurus bonus!",
+                    "encouragement_title": "Prevent a 30 ton dinosaur from being burned into the atmosphere",
+                    "encouragement_instructions": "Keep the fossil part of the fossil fuel underground."
+                },
+                {
+                    "calculation_type": 2,
                     "emoji": "⛽️",
                     "range": {
                         "recurring_value": 35401
