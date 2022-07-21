@@ -1,5 +1,5 @@
 {
-    "version_number": 6,
+    "version_number": 7,
     "requiredIOSClientVersion": 249,
     "content": [
         {
@@ -595,9 +595,9 @@
                     "calculation_type": 2,
                     "emoji": "✨",
                     "range": {
-                        "exact_value": 398
+                        "min_value": 398
                     },
-                    "format_string": "You avoided emittiing 100 grams of co2!",
+                    "format_string": "Avoided emitting 100g of co2!",
                     "encouragement_title": "100g of co2",
                     "encouragement_instructions": "Just ride your bike to start fighting climate change!"
                 },
@@ -607,7 +607,7 @@
                     "range": {
                         "recurring_value": 3983
                     },
-                    "format_string": "You avoided a 1000 grams of co2!",
+                    "format_string": "Saved another 1kg of co2 by biking",
                     "encouragement_title": "1kg of co2",
                     "encouragement_instructions": "Just ride your bike instead of driving to avoid emitting co2"
                 },
