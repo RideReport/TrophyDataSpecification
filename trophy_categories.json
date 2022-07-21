@@ -190,6 +190,29 @@
             ]
         },
         {
+            "name":"Island Life 🌴",
+            "content":[
+                {
+                    "encouragement_title":"Aloha Ride",
+                    "emoji":"🤙",
+                    "conditions":[
+                        {
+                            "range":{"radius":100000,
+                                "longitude":-157.93480690373494,
+                                "latitude":21.324095733246519
+                                
+                            },
+                            "condition_type":5}
+                    ],
+                    "range":{},
+                    "encouragement_instructions":"Get an Aloha Trophy after your first bike ride in Hawaii.",
+                    "calculation_type":0,
+                    "format_string":"Aloha!"
+                    
+                }
+            ]
+        },
+        {
             "name": "Only in Portland",
             "range": {
                 "longitude": -122.6784,
@@ -632,7 +655,7 @@
                     "calculation_type": 2,
                     "emoji": "🏋️",
                     "range": {
-                        "recurring_value": 3613784  
+                        "recurring_value": 3613784
                     },
                     "format_string": "You avoided emitting 1 TON of co2!",
                     "encouragement_title": "1 TON!",
