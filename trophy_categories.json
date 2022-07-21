@@ -191,6 +191,11 @@
         },
         {
             "name": "Only in Portland",
+            "range": {
+                "longitude": -122.6784,
+                "latitude": 45.5152,
+                "radius": 50000.00
+            },
             "content": [
                 {
                     "calculation_type": 0,
