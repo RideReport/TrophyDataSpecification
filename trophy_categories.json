@@ -595,7 +595,7 @@
                     "calculation_type": 2,
                     "emoji": "✨",
                     "range": {
-                        "min_value": 398
+                        "exact_value": 398
                     },
                     "format_string": "Avoided emitting 100g of co2!",
                     "encouragement_title": "100g of co2",
