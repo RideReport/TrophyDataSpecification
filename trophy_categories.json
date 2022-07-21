@@ -195,6 +195,11 @@
                 {
                     "encouragement_title":"Aloha Ride",
                     "emoji":"🤙",
+                    "range": {
+                        "longitude": -157.565755,
+                        "latitude": 20.723627,
+                        "radius": 350000.00
+                    },
                     "conditions":[
                         {
                             "range":{"radius":100000,
@@ -204,7 +209,6 @@
                             },
                             "condition_type":5}
                     ],
-                    "range":{},
                     "encouragement_instructions":"Get an Aloha Trophy after your first bike ride in Hawaii.",
                     "calculation_type":0,
                     "format_string":"Aloha!"
