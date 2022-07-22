@@ -191,15 +191,15 @@
         },
         {
             "name":"Island Life 🌴",
+            "range": {
+                "longitude": -157.565755,
+                "latitude": 20.723627,
+                "radius": 350000.00
+            },
             "content":[
                 {
                     "encouragement_title":"Aloha Ride",
                     "emoji":"🤙",
-                    "range": {
-                        "longitude": -157.565755,
-                        "latitude": 20.723627,
-                        "radius": 350000.00
-                    },
                     "conditions":[
                         {
                             "range":{"radius":100000,
