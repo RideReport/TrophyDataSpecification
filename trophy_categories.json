@@ -151,130 +151,6 @@
             ]
         },
         {
-            "name": "Wild Weather",
-            "content": [
-                {
-                    "calculation_type": 0,
-                    "emoji": "🌻",
-                    "conditions": [
-                        {
-                            "condition_type": 0,
-                            "range": {
-                                "min_value": 24,
-                                "max_value": 28
-                            }
-                        }
-                    ],
-                    "format_string": "What a Nice Day!",
-                    "encouragement_title": "Nice Day Trophy",
-                    "encouragement_instructions": "Earn a trophy just for going for a ride on a really nice day. How easy is that?"
-                },
-                {
-                    "calculation_type": 0,
-                    "emoji": "🌡",
-                    "conditions": [
-                        {
-                            "condition_type": 0,
-                            "range": {
-                                "min_value": 33
-                            }
-                        }
-                    ],
-                    "format_string": "Blistering Heat Bonus Points!",
-                    "encouragement_title": "Blistering Heat Trophy"
-                },
-                {
-                    "calculation_type": 0,
-                    "emoji": "🍳",
-                    "conditions": [
-                        {
-                            "condition_type": 0,
-                            "range": {
-                                "min_value": 38
-                            }
-                        }
-                    ],
-                    "format_string": "It's over 100 degress out!",
-                    "encouragement_title": "Fry an Egg on the Sidewalk Trophy",
-                    "encouragement_instructions": "Sizzle sizzle"
-                },
-                {
-                    "calculation_type": 0,
-                    "emoji": "🥶",
-                    "conditions": [
-                        {
-                            "condition_type": 0,
-                            "range": {
-                                "max_value": 0
-                            }
-                        }
-                    ],
-                    "format_string": "Cold Weather Bonus Points!",
-                    "encouragement_title": "Cold Weather Trophy",
-                    "encouragement_instructions": "Ride you b…rr…icicle."
-                },
-                {
-                    "calculation_type": 0,
-                    "emoji": "☔️",
-                    "conditions": [
-                        {
-                            "condition_type": 3,
-                            "range": {
-                                "min_value": 1,
-                                "max_value": 4
-                            }
-                        }
-                    ],
-                    "format_string": "Wet Weather Bonus Points!",
-                    "encouragement_title": "Rainy Ride Trophy",
-                    "encouragement_instructions": "Fair weather riders need not apply."
-                },
-                {
-                    "calculation_type": 0,
-                    "emoji": "🏄",
-                    "conditions": [
-                        {
-                            "condition_type": 3,
-                            "range": {
-                                "min_value": 5
-                            }
-                        }
-                    ],
-                    "format_string": "Absolutely Cats Out Bonus!"
-                },
-                {
-                    "calculation_type": 0,
-                    "emoji": "⛄️",
-                    "conditions": [
-                        {
-                            "condition_type": 4,
-                            "range": {
-                                "min_value": 10
-                            }
-                        }
-                    ],
-                    "format_string": "Snowy Ride Bonus Points!",
-                    "encouragement_title": "Snowy Ride Trophy",
-                    "encouragement_instructions": "Sno joke, riding out there is tricky."
-                },
-                {
-                    "calculation_type": 0,
-                    "emoji": "🌬",
-                    "conditions": [
-                        {
-                            "condition_type": 1,
-                            "range": {
-                                "min_value": 10
-                            }
-                        }
-                    ],
-                    "format_string": "Blustercluck Bonus Points!",
-                    "encouragement_title": "Windy Ride Trophy",
-                    "encouragement_instructions": "We're a big fan of you for riding in this weather."
-                }
-            ]
-        },
-        {
             "name":"Island Life 🌴",
             "range": {
                 "longitude": -157.565755,
@@ -704,6 +580,130 @@
                     ],
                     "calculation_type": 0,
                     "encouragement_instructions": "Fill up your cup and celebrate the 2022 champs to earn this trophy!"
+                }
+            ]
+        },
+        {
+            "name": "Wild Weather",
+            "content": [
+                {
+                    "calculation_type": 0,
+                    "emoji": "🌻",
+                    "conditions": [
+                        {
+                            "condition_type": 0,
+                            "range": {
+                                "min_value": 24,
+                                "max_value": 28
+                            }
+                        }
+                    ],
+                    "format_string": "What a Nice Day!",
+                    "encouragement_title": "Nice Day Trophy",
+                    "encouragement_instructions": "Earn a trophy just for going for a ride on a really nice day. How easy is that?"
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🌡",
+                    "conditions": [
+                        {
+                            "condition_type": 0,
+                            "range": {
+                                "min_value": 33
+                            }
+                        }
+                    ],
+                    "format_string": "Blistering Heat Bonus Points!",
+                    "encouragement_title": "Blistering Heat Trophy"
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🍳",
+                    "conditions": [
+                        {
+                            "condition_type": 0,
+                            "range": {
+                                "min_value": 38
+                            }
+                        }
+                    ],
+                    "format_string": "It's over 100 degress out!",
+                    "encouragement_title": "Fry an Egg on the Sidewalk Trophy",
+                    "encouragement_instructions": "Sizzle sizzle"
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🥶",
+                    "conditions": [
+                        {
+                            "condition_type": 0,
+                            "range": {
+                                "max_value": 0
+                            }
+                        }
+                    ],
+                    "format_string": "Cold Weather Bonus Points!",
+                    "encouragement_title": "Cold Weather Trophy",
+                    "encouragement_instructions": "Ride you b…rr…icicle."
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "☔️",
+                    "conditions": [
+                        {
+                            "condition_type": 3,
+                            "range": {
+                                "min_value": 1,
+                                "max_value": 4
+                            }
+                        }
+                    ],
+                    "format_string": "Wet Weather Bonus Points!",
+                    "encouragement_title": "Rainy Ride Trophy",
+                    "encouragement_instructions": "Fair weather riders need not apply."
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🏄",
+                    "conditions": [
+                        {
+                            "condition_type": 3,
+                            "range": {
+                                "min_value": 5
+                            }
+                        }
+                    ],
+                    "format_string": "Absolutely Cats Out Bonus!"
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "⛄️",
+                    "conditions": [
+                        {
+                            "condition_type": 4,
+                            "range": {
+                                "min_value": 10
+                            }
+                        }
+                    ],
+                    "format_string": "Snowy Ride Bonus Points!",
+                    "encouragement_title": "Snowy Ride Trophy",
+                    "encouragement_instructions": "Sno joke, riding out there is tricky."
+                },
+                {
+                    "calculation_type": 0,
+                    "emoji": "🌬",
+                    "conditions": [
+                        {
+                            "condition_type": 1,
+                            "range": {
+                                "min_value": 10
+                            }
+                        }
+                    ],
+                    "format_string": "Blustercluck Bonus Points!",
+                    "encouragement_title": "Windy Ride Trophy",
+                    "encouragement_instructions": "We're a big fan of you for riding in this weather."
                 }
             ]
         },
