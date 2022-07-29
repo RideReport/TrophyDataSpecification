@@ -490,6 +490,219 @@
             ]
         },
         {
+            "name": "Denver",
+            "content": [
+                {
+                    "format_string": "You channeled the Demon Horse!",
+                    "encouragement_title": "Blucifer Trophy ",
+                    "emoji": "🏮",
+                    "range": {
+                        "exact_value": 408773
+                    },
+                    "calculation_type": 2,
+                    "encouragement_instructions": "Ride a nefarious distance and you’ll earn your seat at the church of Blucifer."
+                },
+                {
+                    "format_string": "Yes! Thx for supporting Colorado’s bike movement!",
+                    "encouragement_title": "Bicycle Colorado Trophy",
+                    "emoji": "📣",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 200,
+                                "longitude": -104.98715507171399,
+                                "latitude": 39.7428324939164
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Spend some time on the hill to earn some Bicycle Colorado cred."
+                },
+                {
+                    "format_string": "You earned some big cheese! ",
+                    "encouragement_title": "Big Cheese Trophy",
+                    "emoji": "🧀",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 400,
+                                "longitude": -104.96617144412608,
+                                "latitude": 39.73253372374716
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Grab your blanket and coozie to earn some laid back Cheesman time. "
+                },
+                {
+                    "format_string": "You earned the Casa Bonita Bonus!",
+                    "encouragement_title": "Casa Bonita Bonus",
+                    "emoji": "🦍 ",
+                    "conditions": [
+                        {
+                            "range": {
+                                "max_value": 41,
+                                "min_value": 38
+                            },
+                            "condition_type": 0
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Bike during frying temps for unlimited sopapillas!"
+                },
+                {
+                    "format_string": "You biked the length of Colfax!",
+                    "encouragement_title": "Colfax Cred Trophy",
+                    "emoji": "🛣",
+                    "range": {
+                        "exact_value": 42647
+                    },
+                    "calculation_type": 2,
+                    "encouragement_instructions": "Keep it up! Bike the length of the longest commercial street in the US!"
+                },
+                {
+                    "format_string": "You smelled some Colorado Cologne",
+                    "encouragement_title": "Colorado Cologne Trophy",
+                    "emoji": "🍁",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 50,
+                                "longitude": -104.98236557540748,
+                                "latitude": 39.709136729013046
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Stop in for a service at the International Church of Cannabis."
+                },
+                {
+                    "format_string": "Woah! You biked the total length of Denver’s bike lanes! ",
+                    "encouragement_title": "Denver Bike Lane Trophy",
+                    "emoji": "🪩",
+                    "range": {
+                        "exact_value": 408773
+                    },
+                    "calculation_type": 2,
+                    "encouragement_instructions": "Denver has 254 miles of bike lanes (and needs hundreds more). Ride that distance to unlock this doozie! "
+                },
+                {
+                    "format_string": "You earned Frank Azar’s Strongarm",
+                    "encouragement_title": "Frank Azar 4ever Trophy",
+                    "emoji": "🦾",
+                    "conditions": [
+                        {
+                            "range": {
+                                "max_value": 7,
+                                "min_value": 5
+                            },
+                            "condition_type": 1
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Just keep riding and never forget. The strongarm has your back. "
+                },
+                {
+                    "format_string": "You bagged some gnar!",
+                    "encouragement_title": "Gnarnia Trophy",
+                    "emoji": "🏔",
+                    "range": {
+                        "exact_value": 22530
+                    },
+                    "calculation_type": 2,
+                    "encouragement_instructions": "Log 14 miles to become a local peakbagger!"
+                },
+                {
+                    "format_string": "You earned a rare, well-behaved unleashed dog! Congrats on all your hard work!",
+                    "encouragement_title": "The Rarest Trophy",
+                    "emoji": "🐕",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 300,
+                                "longitude": -104.97106036793919,
+                                "latitude": 39.70003336694634
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Ride to an unlikely location to earn The Rarest Trophy: a well-behaved unleashed dog! "
+                },
+                {
+                    "format_string": "You got X8LR8’d! ",
+                    "encouragement_title": "Mind Eraser Trophy",
+                    "emoji": "🎢",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 100,
+                                "longitude": -105.01040212573673,
+                                "latitude": 39.75010276064109
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Get yourself some funnel cake and tower of doom to earn this trophy!"
+                },
+                {
+                    "format_string": "Congrats! You’re a member of the all-powerful Denver Bike Lobby!",
+                    "encouragement_title": "Denver Bike Lobby Trophy",
+                    "emoji": "📢",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 200,
+                                "longitude": -105.0026755418566,
+                                "latitude": 39.75587399377656
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Head to the heart of the city to earn the Denver Bike Lobby Trophy!"
+                },
+                {
+                    "format_string": "Congrats on your velo-ciraptor sighting!",
+                    "encouragement_title": "Velo-ciraptor Trophy",
+                    "emoji": "☄️",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 100,
+                                "longitude": -104.94312781205917,
+                                "latitude": 39.74911464357387
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Bike to see prehistoric Sue to unlock this trophy."
+                },
+                {
+                    "format_string": "Congrats! You won the Stanley Cup Trophy",
+                    "encouragement_title": "Stanley Cup Trophy",
+                    "emoji": "🏆",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 100,
+                                "longitude": -104.8773636917356,
+                                "latitude": 39.752989752036335
+                            },
+                            "condition_type": 6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions": "Fill up your cup and celebrate the 2022 champs to earn this trophy!"
+                }
+            ]
+        },
+        {
             "name": "Start a Streak!",
             "content": [
                 {
