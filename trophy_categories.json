@@ -104,9 +104,9 @@
                     "range": {
                         "recurring_value": 35401
                     },
-                    "format_string": "You avoided a burning 1 gallon of gas!",
-                    "encouragement_title": "1 gallon of gas",
-                    "encouragement_instructions": "Rider yer bike to save burning a whole gallon of gas"
+                    "format_string": "You saved a gallon of gas!",
+                    "encouragement_title": "Gallon o' gas",
+                    "encouragement_instructions": "Keep a whole gallon of gas outta the air."
                 },
                 {
                     "calculation_type": 2,
@@ -114,9 +114,9 @@
                     "range": {
                         "recurring_value": 566416
                     },
-                    "format_string": "You saved burning a whole tank of gas!",
-                    "encouragement_title": "Tank of gas",
-                    "encouragement_instructions": "Just ride your bike instead of driving to save a whole tank o gas"
+                    "format_string": "You saved a whole tank of gas!",
+                    "encouragement_title": "Tank o' gas",
+                    "encouragement_instructions": "Keep a whole tank of gas underground"
                 },
                 {
                     "calculation_type": 2,
@@ -124,8 +124,8 @@
                     "range": {
                         "recurring_value": 1147233
                     },
-                    "format_string": "You saved emissions from a whole barrel of crude, dude!",
-                    "encouragement_title": "A whole barrel of crude",
+                    "format_string": "This is not a drill! You saved a whole barrel of crude!!",
+                    "encouragement_title": "Barrel o' crude",
                     "encouragement_instructions": "Just ride your bike instead of driving to save a whole barrel of crude"
                 },
                 {
@@ -144,9 +144,9 @@
                     "range": {
                         "recurring_value": 3613784
                     },
-                    "format_string": "You avoided emitting 1 TON of co2!",
+                    "format_string": "You saved 1 TON of co2!",
                     "encouragement_title": "1 TON!",
-                    "encouragement_instructions": "Just ride your bike 2,245 miles instead of driving to avoid emitting a literal TON of co2"
+                    "encouragement_instructions": "Keeping riding! You're close to saving a literal TON of co2"
                 }
             ]
         },
