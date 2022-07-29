@@ -491,6 +491,11 @@
         },
         {
             "name": "Denver",
+            "range": {
+                "longitude": -104.9903,
+                "latitude": 39.7392,
+                "radius": 50000.00
+            },
             "content": [
                 {
                     "format_string": "You channeled the Demon Horse!",
