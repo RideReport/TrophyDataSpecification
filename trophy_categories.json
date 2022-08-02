@@ -362,6 +362,23 @@
                     ],
                     "calculation_type": 0,
                     "encouragement_instructions": "Grab a suit, ride your bike, get a trophy."
+                },
+                {
+                    "format_string": "Blumenauer Bridge Bonus!",
+                    "encouragement_title": "Earl-y rider",
+                    "emoji": "🎀",
+                    "conditions": [
+                        {
+                            "range": {
+                                "radius": 150,
+                                "longitude": -122.65857828973675,
+                                "latitude": 45.526737352451171
+                            },
+                            "condition_type":6
+                        }
+                    ],
+                    "calculation_type": 0,
+                    "encouragement_instructions":"Take a trip to Portland’s newest bike bridge."
                 }
             ]
         },
